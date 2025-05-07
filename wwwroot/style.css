@@ -42,3 +42,33 @@ body {
     border: none;
     cursor: pointer;
   }  
+
+  .publicacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .publicacao {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .publicacao img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #f97316;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+  }
+  
