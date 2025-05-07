@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 80px;
+  }
+  
+  .stats p {
+    margin: 10px 0;
+  }
+  
+  main {
+    margin-left: 220px;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }  
