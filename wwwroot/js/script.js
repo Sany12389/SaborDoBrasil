@@ -1,7 +1,7 @@
 const publicacoes = [
     {
         titulo: "Carne cozida",
-        imagem: "assets/prato1.jpgIM",
+        imagem: "img/logo.png",
         local: "Local 01",
         cidade: "Maceió-AL",
         likes: 2,
