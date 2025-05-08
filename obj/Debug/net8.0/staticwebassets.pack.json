@@ -1,20 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\Captura de tela 2025-05-07 151600.png",
-      "PackagePath": "staticwebassets\\img\\Captura de tela 2025-05-07 151600.png"
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\cadastro.html",
+      "PackagePath": "staticwebassets\\cadastro.html"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\script.js",
-      "PackagePath": "staticwebassets\\js\\script.js"
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\cadastro.js",
+      "PackagePath": "staticwebassets\\js\\cadastro.js"
     },
     {
-      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\style.css",
-      "PackagePath": "staticwebassets\\style.css"
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SaborDoBrasil.Microsoft.AspNetCore.StaticWebAssets.props",

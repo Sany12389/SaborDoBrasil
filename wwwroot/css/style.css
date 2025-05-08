@@ -71,4 +71,39 @@ body {
     padding: 10px;
     margin-top: auto;
   }
+
+  form {
+    background-color: #f4f4f4; /* Cor de fundo do formulário */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
   
+  form h1 {
+    color: #D97014; /* Cor do título do formulário */
+  }
+  
+  form button {
+    background-color: #D97014; /* Cor do botão */
+    border: none;
+    color: white; /* Cor do texto do botão */
+  }
+  
+  form button:hover {
+    background-color: #b85e10; /* Cor do botão ao passar o mouse */
+  }
+
+  /* Sobrescrevendo a cor primary do Bootstrap */
+  .btn-primary {
+    background-color: #D97014 !important; /* Cor de fundo do botão */
+    border-color: #D97014 !important; /* Cor da borda do botão */
+  }
+
+  .btn-primary:hover {
+    background-color: #b85e10 !important; /* Cor ao passar o mouse */
+    border-color: #b85e10 !important; /* Cor da borda ao passar o mouse */
+  }
+
+  .text-primary {
+    color: #D97014 !important; /* Cor do texto primary */
+  }

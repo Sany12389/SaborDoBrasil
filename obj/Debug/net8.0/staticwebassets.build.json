@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+QfI5/pedzVf9t4KB2hR2Ag0b14PPbu5C5p60gWW6Ig=",
+  "Hash": "vied1ao6S9aDjTypLoo2vra7SU4uidO+tS/zQAJ0VT8=",
   "Source": "SaborDoBrasil",
   "BasePath": "_content/SaborDoBrasil",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\Captura de tela 2025-05-07 151600.png",
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\cadastro.html",
       "SourceId": "SaborDoBrasil",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
       "BasePath": "_content/SaborDoBrasil",
-      "RelativePath": "img/Captura de tela 2025-05-07 151600.png",
+      "RelativePath": "cadastro.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Captura de tela 2025-05-07 151600.png"
+      "OriginalItemSpec": "wwwroot\\cadastro.html"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\css\\style.css",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\logo.png",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\index.html",
@@ -55,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\cadastro.js",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "js/cadastro.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cadastro.js"
+    },
+    {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\script.js",
       "SourceId": "SaborDoBrasil",
       "SourceType": "Discovered",
@@ -72,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
-    },
-    {
-      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\style.css",
-      "SourceId": "SaborDoBrasil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
-      "BasePath": "_content/SaborDoBrasil",
-      "RelativePath": "style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\style.css"
     }
   ]
 }
