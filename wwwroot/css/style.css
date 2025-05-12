@@ -70,6 +70,9 @@ body {
     text-align: center;
     padding: 10px;
     margin-top: auto;
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    position: relative; /* Garante que o footer fique no fluxo do layout */
+    left: 0;
   }
 
   form {
