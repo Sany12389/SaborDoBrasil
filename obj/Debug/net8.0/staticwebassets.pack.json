@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\almoco-de-quarta-feira.jpg",
+      "PackagePath": "staticwebassets\\img\\almoco-de-quarta-feira.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\opcao-de-almoco-1.webp",
+      "PackagePath": "staticwebassets\\img\\opcao-de-almoco-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\strogonoff-pratico-de-frango-e-arroz.jpeg",
+      "PackagePath": "staticwebassets\\img\\strogonoff-pratico-de-frango-e-arroz.jpeg"
     },
     {
       "Id": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\index.html",
