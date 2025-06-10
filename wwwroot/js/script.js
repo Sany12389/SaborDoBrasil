@@ -44,3 +44,7 @@ function comprar(btn) {
     // Aqui você pode simular um pagamento ou redirecionar para outra página
     alert("Compra realizada com sucesso! Obrigado por comprar no Sabor do Brasil.");
 }
+function curtir(btn) {
+    const countSpan = btn.querySelector('.like-count');
+    countSpan.textContent = parseInt(countSpan.textContent) + 1;
+}
