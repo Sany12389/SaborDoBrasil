@@ -39,3 +39,8 @@ publicacoes.forEach(p => {
       </div>
     `;
 });
+
+function comprar(btn) {
+    // Aqui você pode simular um pagamento ou redirecionar para outra página
+    alert("Compra realizada com sucesso! Obrigado por comprar no Sabor do Brasil.");
+}
