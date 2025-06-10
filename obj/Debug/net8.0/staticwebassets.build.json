@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vied1ao6S9aDjTypLoo2vra7SU4uidO+tS/zQAJ0VT8=",
+  "Hash": "rGRKR5tQ38sUnZpDlLb6EujbiakJywt4LZhBjx9sTSY=",
   "Source": "SaborDoBrasil",
   "BasePath": "_content/SaborDoBrasil",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\almoco-de-quarta-feira.jpg",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "img/almoco-de-quarta-feira.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\almoco-de-quarta-feira.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\logo.png",
       "SourceId": "SaborDoBrasil",
       "SourceType": "Discovered",
@@ -72,6 +91,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\opcao-de-almoco-1.webp",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "img/opcao-de-almoco-1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\opcao-de-almoco-1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\img\\strogonoff-pratico-de-frango-e-arroz.jpeg",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "img/strogonoff-pratico-de-frango-e-arroz.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\strogonoff-pratico-de-frango-e-arroz.jpeg"
     },
     {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\index.html",
@@ -112,6 +169,25 @@
       "OriginalItemSpec": "wwwroot\\js\\cadastro.js"
     },
     {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\mercado.js",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "js/mercado.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mercado.js"
+    },
+    {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\script.js",
       "SourceId": "SaborDoBrasil",
       "SourceType": "Discovered",
@@ -129,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\sucesso.html",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "sucesso.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sucesso.html"
     }
   ]
 }

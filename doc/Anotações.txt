@@ -1,0 +1,23 @@
+Arquitetura MVC 
+A)Model - B)View - C)Controller
+
+A) Banco de dados (Usuarios, Publicacoes, Comentarios, Curtidas etc)
+B) Imprime na tela
+C) Realiza as requisições no banco 
+
+
+DbContext (Responsável por realizar a conexão e tratativa com o banco de dados)
+Criar um novo arquivo AppDbContext.cs dentro de Data/AppDbContext.cs
+Obs.: Certificar que o package EntityFramework.Core esteja instalado, para isso, acesse o site Nuget e procure a versão do pacote:
+
+
+1) Configurar o DbContext
+2) Configurar a ConnectionString com os dados de acesso ao banco de dados
+3) Adicionar o serviço no Program.cs
+4) Instalar os packages necessários (EntityFramework e MySQL)
+5) Configurar a Migrations (Gerenciar as alterações no banco de dados)
+
+
+Package:]
+	do  tnet add package Microsoft.EntityFrameworkCore --version 8.0.16
+	dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.3

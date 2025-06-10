@@ -1,4 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using SaborDoBrasil.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Adiciona o serviço do DbContext para conexão com o banco MySQL
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    )
+);
+
 var app = builder.Build();
 
 app.UseDefaultFiles(); // Serve index.html por padrão
