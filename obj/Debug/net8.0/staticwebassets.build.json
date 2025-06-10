@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W1+rJJFCcHgUkIHTgBGvs3ikj9WK5kZ/OVpZG9TlnVo=",
+  "Hash": "rGRKR5tQ38sUnZpDlLb6EujbiakJywt4LZhBjx9sTSY=",
   "Source": "SaborDoBrasil",
   "BasePath": "_content/SaborDoBrasil",
   "Mode": "Default",
@@ -169,6 +169,25 @@
       "OriginalItemSpec": "wwwroot\\js\\cadastro.js"
     },
     {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\mercado.js",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "js/mercado.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mercado.js"
+    },
+    {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\script.js",
       "SourceId": "SaborDoBrasil",
       "SourceType": "Discovered",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\sucesso.html",
+      "SourceId": "SaborDoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
+      "BasePath": "_content/SaborDoBrasil",
+      "RelativePath": "sucesso.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sucesso.html"
     }
   ]
 }
