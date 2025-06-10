@@ -3,7 +3,7 @@ const publicacoes = [
         titulo: "Carne cozida",
         imagem: "img/logo.png",
         local: "Local 01",
-        cidade: "Maceió-AL",
+        cidade: "Ipatinga-MG",
         likes: 2,
         dislikes: 4
     },
@@ -11,7 +11,7 @@ const publicacoes = [
         titulo: "Título do prato 02",
         imagem: "assets/prato2.jpg",
         local: "Local 02",
-        cidade: "Maceió-AL",
+        cidade: "Ipatinga-MG",
         likes: 9,
         dislikes: 10
     },
@@ -19,7 +19,8 @@ const publicacoes = [
         titulo: "Título do prato 03",
         imagem: "assets/prato3.jpg",
         local: "Local 03",
-        cidade: "Ipati",
+        cidade: "Ipatinga-MG",
+        likes: 5,
         likes: 2,
         dislikes: 1
     }
