@@ -14,7 +14,61 @@
 <body>
 
 
+  <script>
+    function comentar(input) {
+      const texto = input.value.trim();
+      if (texto === "") return;
 
+      const ul = input.parentElement.querySelector('.comments');
+      const li = document.createElement('li');
+      li.className = "list-group-item d-flex justify-content-between align-items-center";
+      li.innerHTML = `
+        <span class="comentario-texto">${texto}</span>
+        <div>
+            <button class="btn btn-sm btn-outline-primary me-1" onclick="editarComentario(this)">Editar</button>
+            <button class="btn btn-sm btn-outline-danger" onclick="excluirComentario(this)">Excluir</button>
+        </div>
+    `;
+      ul.appendChild(li);
+      input.value = "";
+    }
+
+    function excluirComentario(btn) {
+      btn.closest('li').remove();
+    }
+
+    function editarComentario(btn) {
+      const li = btn.closest('li');
+      const span = li.querySelector('.comentario-texto');
+      const textoAtual = span.textContent;
+      span.innerHTML = `<input type="text" class="form-control form-control-sm d-inline w-auto" value="${textoAtual}">`;
+      btn.textContent = "Confirmar";
+      btn.classList.remove('btn-outline-primary');
+      btn.classList.add('btn-success');
+      btn.onclick = function () { confirmarEdicao(this); };
+    }
+
+    function confirmarEdicao(btn) {
+      const li = btn.closest('li');
+      const input = li.querySelector('input');
+      const novoTexto = input.value.trim();
+      if (novoTexto === "") return;
+      li.querySelector('.comentario-texto').textContent = novoTexto;
+      btn.textContent = "Editar";
+      btn.classList.remove('btn-success');
+      btn.classList.add('btn-outline-primary');
+      btn.onclick = function () { editarComentario(this); };
+    }
+
+    function curtir(btn) {
+      const countSpan = btn.querySelector('.like-count');
+      let count = parseInt(countSpan.textContent);
+      if (count < 1000) {
+        count++;
+        countSpan.textContent = count;
+      }
+    }
+  </script>
   <div class="container text-center">
     <div class="row align-items-start">
       <!-- Lado esquerdo -->
@@ -44,7 +98,7 @@
               <button class="btn btn-outline-success btn-sm" onclick="curtir(this)">
                 <i class="bi bi-hand-thumbs-up"></i> Curtir <span class="like-count">0</span>
               </button>
-              <button class="btn btn-outline-secondary btn-sm" onclick="compartilhar()">
+              <button class="btn btn-outline-secondary btn-sm" onclick="abrirCompartilhar(this)">
                 <i class="bi bi-send"></i> Compartilhar
               </button>
             </div>
@@ -68,7 +122,7 @@
               <button class="btn btn-outline-success btn-sm" onclick="curtir(this)">
                 <i class="bi bi-hand-thumbs-up"></i> Curtir <span class="like-count">0</span>
               </button>
-              <button class="btn btn-outline-secondary btn-sm" onclick="compartilhar()">
+              <button class="btn btn-outline-secondary btn-sm" onclick="abrirCompartilhar(this)">
                 <i class="bi bi-send"></i> Compartilhar
               </button>
             </div>
@@ -92,7 +146,7 @@
               <button class="btn btn-outline-success btn-sm" onclick="curtir(this)">
                 <i class="bi bi-hand-thumbs-up"></i> Curtir <span class="like-count">0</span>
               </button>
-              <button class="btn btn-outline-secondary btn-sm" onclick="compartilhar()">
+              <button class="btn btn-outline-secondary btn-sm" onclick="abrirCompartilhar(this)">
                 <i class="bi bi-send"></i> Compartilhar
               </button>
             </div>
@@ -158,6 +212,74 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  <script>
+    function abrirCompartilhar(btn) {
+      // Cria o menu de compartilhamento se não existir
+      let menu = document.getElementById('menu-compartilhar');
+      if (menu) menu.remove();
+
+      menu = document.createElement('div');
+      menu.id = 'menu-compartilhar';
+      menu.style.position = 'absolute';
+      menu.style.background = '#fff';
+      menu.style.border = '1px solid #ccc';
+      menu.style.borderRadius = '8px';
+      menu.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+      menu.style.padding = '10px';
+      menu.style.zIndex = 1000;
+      menu.innerHTML = `
+    <button class="btn btn-outline-success btn-sm mb-1 w-100" onclick="compartilharWhatsapp(this)">
+      <i class="bi bi-whatsapp"></i> WhatsApp
+    </button><br>
+    <button class="btn btn-outline-primary btn-sm mb-1 w-100" onclick="compartilharFacebook(this)">
+      <i class="bi bi-facebook"></i> Facebook
+    </button><br>
+    <button class="btn btn-outline-danger btn-sm w-100" onclick="compartilharInstagram(this)">
+      <i class="bi bi-instagram"></i> Instagram
+    </button>
+  `;
+
+      // Posiciona o menu próximo ao botão clicado
+      document.body.appendChild(menu);
+      const rect = btn.getBoundingClientRect();
+      menu.style.left = `${rect.left + window.scrollX}px`;
+      menu.style.top = `${rect.bottom + window.scrollY + 5}px`;
+
+      // Fecha o menu ao clicar fora
+      function fecharMenu(e) {
+        if (!menu.contains(e.target)) {
+          menu.remove();
+          document.removeEventListener('mousedown', fecharMenu);
+        }
+      }
+      document.addEventListener('mousedown', fecharMenu);
+    }
+
+    function compartilharWhatsapp(btn) {
+      fecharMenuCompartilhar();
+      const card = btn.closest('.card');
+      const titulo = card.querySelector('.card-title').innerText;
+      const texto = `Confira este prato: ${titulo} no Sabor do Brasil!`;
+      const url = encodeURIComponent(window.location.href);
+      window.open(`https://wa.me/?text=${encodeURIComponent(texto)}%20${url}`, '_blank');
+    }
+
+    function compartilharFacebook(btn) {
+      fecharMenuCompartilhar();
+      const url = encodeURIComponent(window.location.href);
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+    }
+
+    function compartilharInstagram(btn) {
+      fecharMenuCompartilhar();
+      alert('O compartilhamento direto para o Instagram não é suportado via navegador. Compartilhe manualmente!');
+    }
+
+    function fecharMenuCompartilhar() {
+      const menu = document.getElementById('menu-compartilhar');
+      if (menu) menu.remove();
+    }
+  </script>
 </body>
 
 </html>
