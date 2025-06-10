@@ -10,3 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    // Seleciona todos os botões "Comprar" com a classe btn-comprar
+    const comprarBtns = document.querySelectorAll('.btn-comprar');
+
+    comprarBtns.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            window.location.href = "sucesso.html";
+        });
+    });
+});
