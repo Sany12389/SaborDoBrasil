@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rGRKR5tQ38sUnZpDlLb6EujbiakJywt4LZhBjx9sTSY=",
+  "Hash": "GrahEDV0HeoCU525nPcXysLewKXcUKrVmFhpK+a1qWg=",
   "Source": "SaborDoBrasil",
   "BasePath": "_content/SaborDoBrasil",
   "Mode": "Default",
@@ -167,25 +167,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cadastro.js"
-    },
-    {
-      "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\mercado.js",
-      "SourceId": "SaborDoBrasil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\",
-      "BasePath": "_content/SaborDoBrasil",
-      "RelativePath": "js/mercado.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\mercado.js"
     },
     {
       "Identity": "C:\\Users\\Aluno\\Documents\\ligth\\SSZ\\SaborDoBrasil\\wwwroot\\js\\script.js",

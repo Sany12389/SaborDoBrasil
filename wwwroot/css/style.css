@@ -110,14 +110,4 @@ body {
   .text-primary {
     color: #D97014 !important; /* Cor do texto primary */
   }
-  .avaliacao-estrelas i {
-    color: #FFD700;
-    cursor: pointer;
-    font-size: 1.2em;
-    margin-right: 2px;
-  }
-.avaliacao-bomruim i {
-    cursor: pointer;
-    font-size: 1.3em;
-    margin-right: 5px;
-  }
+
