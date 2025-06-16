@@ -124,3 +124,71 @@ function confirmarEdicao(btn) {
     btn.classList.add('btn-outline-primary');
     btn.onclick = function () { editarComentario(this); };
 }
+
+
+function abrirCompartilhar(btn) {
+  // Remove menu anterior se existir
+  let menu = document.getElementById('menu-compartilhar');
+  if (menu) menu.remove();
+
+  // Cria o menu
+  menu = document.createElement('div');
+  menu.id = 'menu-compartilhar';
+  menu.style.position = 'absolute';
+  menu.style.background = '#fff';
+  menu.style.border = '1px solid #ccc';
+  menu.style.borderRadius = '8px';
+  menu.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+  menu.style.padding = '10px';
+  menu.style.zIndex = 1000;
+  menu.innerHTML = `
+    <button class="btn btn-outline-success btn-sm mb-1 w-100" onclick="compartilharWhatsapp()">
+      <i class="bi bi-whatsapp"></i> WhatsApp
+    </button><br>
+    <button class="btn btn-outline-primary btn-sm mb-1 w-100" onclick="compartilharFacebook()">
+      <i class="bi bi-facebook"></i> Facebook
+    </button><br>
+    <button class="btn btn-outline-danger btn-sm w-100" onclick="compartilharInstagram()">
+      <i class="bi bi-instagram"></i> Instagram
+    </button>
+  `;
+
+  // Posiciona o menu próximo ao botão
+  document.body.appendChild(menu);
+  const rect = btn.getBoundingClientRect();
+  menu.style.left = `${rect.left + window.scrollX}px`;
+  menu.style.top = `${rect.bottom + window.scrollY + 5}px`;
+
+  // Fecha o menu ao clicar fora
+  function fecharMenu(e) {
+    if (!menu.contains(e.target)) {
+      menu.remove();
+      document.removeEventListener('mousedown', fecharMenu);
+    }
+  }
+  document.addEventListener('mousedown', fecharMenu);
+}
+
+function compartilharWhatsapp() {
+  fecharMenuCompartilhar();
+  const texto = `Confira este prato no Sabor do Brasil!`;
+  const url = encodeURIComponent(window.location.href);
+  window.open(`https://web.whatsapp.com/${url}`, '_blank');
+}
+
+function compartilharFacebook() {
+  fecharMenuCompartilhar();
+  const url = encodeURIComponent(window.location.href);
+  window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+}
+
+function compartilharInstagram() {
+  fecharMenuCompartilhar();
+  const url = encodeURIComponent(window.location.href);
+  window.open(`https://www.instagram.com/${url}`, '_blank');
+}
+
+function fecharMenuCompartilhar() {
+  const menu = document.getElementById('menu-compartilhar');
+  if (menu) menu.remove();
+}
